@@ -8,7 +8,7 @@ Proiektuak Mikel Laboa kantari donostiarraren izena darama, haren izaera berritz
 
 ## Aurkezpena
 
-Laboa euskarazko sintaxia JavaScript-era itzultzen duen transpilatzailea da. Proiektuaren helburua programazioaren mundua eta euskara modu erraz eta naturalean uztartzea da, betiere euskararen ezaugarri kultural eta linguistikoak errespetatuz.
+Laboa euskarazko sintaxia JavaScriptera itzultzen duen transpilatzailea da. Proiektuaren helburua programazioaren mundua eta euskara modu erraz eta naturalean uztartzea da, betiere euskararen ezaugarri kultural eta linguistikoak errespetatuz.
 
 ## Benetan behar al dugu euskarazko programazio hizkuntza bat?
 
@@ -53,7 +53,7 @@ funtzio abestu(x) {
 
 ### Oinarrizko Sintaxia
 
-Laboak bi sintaxi mota onartzen ditu, bata funtzio-estilokoa eta bestea Python-en antzekoa:
+Laboak bi sintaxi mota onartzen ditu, bata funtzio-estilokoa eta bestea Pythonen antzekoa:
 
 #### Funtzio-estiloko sintaxia
 
@@ -64,7 +64,7 @@ funtzio abestu(x) {
 }
 ```
 
-#### Python-en antzeko sintaxia
+#### Pythonen antzeko sintaxia
 
 ```laboa
 funtzio abestia(x):
@@ -131,8 +131,8 @@ funtzio abestia(x):
 
 ```bash
 # Biltegi hau klonatu
-git clone https://github.com/t4dhg/laboa.git
-cd laboa
+git clone https://github.com/t4dhg/laboa-interpreter.git
+cd laboa-interpreter
 
 # Menpekotasunak instalatu
 npm install
@@ -146,7 +146,7 @@ npm install
 # Laboa fitxategia exekutatu
 node laboa.js run adibideak/kaixo.laboa
 
-# JavaScript-era transpilatu
+# JavaScriptera transpilatu
 node laboa.js transpile adibideak/sinplea.laboa irteera.js
 
 # REPL interaktiboa
