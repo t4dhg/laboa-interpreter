@@ -1,0 +1,36 @@
+{
+  "name": "laboa",
+  "version": "1.0.0",
+  "description": "Euskeran oinarritutako programazio-hizkuntza baten interpretatzailea, euskeraren gramatika eta hiztegia erabiliz",
+  "main": "laboa.js",
+  "bin": {
+    "laboa": "./laboa.js"
+  },
+  "scripts": {
+    "test": "node tests/test.js",
+    "start": "node laboa.js",
+    "example": "node laboa.js run adibideak/kaixo.laboa"
+  },
+  "keywords": [
+    "basque",
+    "euskera",
+    "programming-language",
+    "transpiler",
+    "interpreter"
+  ],
+  "author": "Taig Mac Carthy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t4dhg/laboa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t4dhg/laboa/issues"
+  },
+  "homepage": "https://github.com/t4dhg/laboa#readme"
+}

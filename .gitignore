@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime and process files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+*.log
+logs/
+
+# Coverage and testing output
+coverage/
+.nyc_output/
+*.lcov
+
+# Build outputs and generated files
+dist/
+build/
+out/
+*.compiled.js
+*.transpiled.js
+
+# Laboa interpreter specific
+# Compiled/transpiled output from .laboa files
+*.laboa.js
+*.laboa.compiled
+
+# Temporary test files (keep examples in adibideak/)
+temp_*.laboa
+scratch_*.laboa
+test_*.laboa
+test*.laboa
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Environment and configuration
+.env
+.env.local
+.env.*.local
+config.local.json
+
+# Package manager files
+package-lock.json
+yarn.lock
+.pnpm-debug.log*

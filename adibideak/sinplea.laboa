@@ -1,0 +1,23 @@
+# Funtzio sinpleen adibidea Laboan (Simple functions example in Laboa)
+
+# Oinarrizko funtzioa agerpenarekin (Basic function with print)
+funtzio agurtu(izena) {
+    ageri('Kaixo ' + izena + '!')
+}
+
+# Funtzioa itzulerarekin (Function with return)
+funtzio batuketa(x, y) {
+    itzuli x + y
+}
+
+# Funtzioak erabiltzen (Using the functions)
+agurtu('Mikel')
+aldagarri emaitza = batuketa(5, 3)
+ageri('5 + 3 = ' + emaitza)
+
+# Baldintza sinplea (Simple conditional)
+aldagarri zenbakia = 10
+baldin zenbakia > 5 bada:
+    ageri('Zenbakia handia da')
+bestela:
+    ageri('Zenbakia txikia da')

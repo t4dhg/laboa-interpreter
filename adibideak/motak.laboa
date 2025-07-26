@@ -1,0 +1,30 @@
+# Motak eta Objektuak Laboan (Classes and Objects in Laboa)
+
+mota Pertsona:
+    funtzio __hasiera__(norbera, izena, adina):
+        norbera.izena = izena
+        norbera.adina = adina
+    
+    metodoa agurtu(norbera):
+        ageri('Kaixo, ni ' + norbera.izena + ' naiz eta ' + norbera.adina + ' urte ditut')
+    
+    metodoa zaharragoBihurtu(norbera):
+        norbera.adina = norbera.adina + 1
+        ageri(norbera.izena + ' orain ' + norbera.adina + ' urte ditu')
+
+# Objektuak sortu (Create objects)
+aldagarri mikel = berri Pertsona('Mikel', 30)
+aldagarri ana = berri Pertsona('Ana', 25)
+
+# Metodoak erabili (Use methods)
+mikel.agurtu()
+ana.agurtu()
+
+mikel.zaharragoBihurtu()
+ana.zaharragoBihurtu()
+
+# Arrayekin lan egin (Working with arrays)
+aldagarri pertsonak = [mikel, ana]
+
+errepikatu pertsona pertsonak-n:
+    pertsona.agurtu()

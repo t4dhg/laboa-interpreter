@@ -1,0 +1,39 @@
+# Funtzioen adibidea Laboan (Functions example in Laboa)
+
+# Funtzioen definizioa (Function definition)
+funtzio agurtu(izena, adina) {
+    ageri('Kaixo ' + izena + '!')
+    baldin adina >= 18 bada:
+        ageri('Heldu zara.')
+    bestela:
+        ageri('Gazte zara.')
+}
+
+# Itzulera-balioa duen funtzioa (Function with return value)
+funtzio kalkulatu(x, y) {
+    aldagarri emaitza = x * y + 10
+    itzuli emaitza
+}
+
+# Funtzioak erabiltzea (Using functions)
+agurtu('Ana', 25)
+agurtu('Jon', 16)
+
+aldagarri zenbakia = kalkulatu(5, 3)
+ageri('Kalkuluaren emaitza: ' + zenbakia)
+
+# Begiztak dituen funtzioa (Function with loops)
+funtzio printNumbers(hasiera, amaiera) {
+    errepikatu i bitartea(hasiera, amaiera):
+        ageri('Zenbakia: ' + i)
+}
+
+printNumbers(1, 6)
+
+# Baldintza eragile logikoekin (Conditional with logical operators)
+funtzio adinCheck(x) {
+    baldin x > 20 eta x < 40 bada:
+        ageri('X 20 eta 40 artean dago')
+    bestela x < 20 edo x > 40 bada:
+        ageri('X ez dago 20 eta 40 artean')
+}

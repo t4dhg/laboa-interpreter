@@ -1,0 +1,14 @@
+# Kaixo Mundua - Laboan (Hello World in Laboa)
+
+ageri('Kaixo mundua!')
+ageri('Ongi etorri Laboa programazio lengoaiara!')
+
+# Aldagaiak (Variables)
+finko izena = 'Mikel'
+aldagarri adina = 25
+
+ageri('Nire izena ' + izena + ' da eta ' + adina + ' urte ditut')
+
+# Kalkulu sinplea (Simple calculation)
+aldagarri emaitza = 10 + 5
+ageri('10 + 5 = ' + emaitza)

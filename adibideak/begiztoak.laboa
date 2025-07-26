@@ -1,0 +1,36 @@
+# Begiztak eta baldintzak Laboan (Loops and conditionals in Laboa)
+
+# 'For' begizta barruti batekin (For loop with a range)
+ageri('Zenbakiak 1-etik 10-era:')
+errepikatu i bitartea(1, 11):
+    ageri(i)
+
+# 'For' begizta array batekin (For loop with an array)
+aldagarri frutak = ['sagarra', 'laranja', 'banana', 'mahatsa']
+ageri('Frutak:')
+errepikatu fruta frutak-n:
+    ageri('- ' + fruta)
+
+# 'While' begizta (While loop)
+aldagarri kontagailua = 0
+ageri('While begizta:')
+bitartean kontagailua < 5:
+    ageri('Kontagailua: ' + kontagailua)
+    kontagailua = kontagailua + 1
+
+# Baldintzazko egiturak (Conditional structures)
+aldagarri zenbakia = 15
+
+baldin zenbakia < 10 bada:
+    ageri('Zenbakia txikia da')
+bestela zenbakia >= 10 eta zenbakia < 20 bada:
+    ageri('Zenbakia ertaina da')  
+bestela:
+    ageri('Zenbakia handia da')
+
+# Begizta habiaratuak (Nested loops)
+ageri('Biderketa taula:')
+errepikatu i bitartea(1, 6):
+    errepikatu j bitartea(1, 6):
+        izan emaitza = i * j
+        ageri(i + ' x ' + j + ' = ' + emaitza)
