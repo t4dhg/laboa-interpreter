@@ -13,7 +13,7 @@ Laboa Programazio Hizkuntza
 
 Erabilera:
     laboa run <fitxategia>               Laboa fitxategia exekutatu
-    laboa transpile <sarrera> <irteera>  Laboa JavaScript-era transpilatu
+    laboa transpile <sarrera> <irteera>  Laboa JavaScriptera transpilatu
     laboa repl                           REPL interaktiboa hasi
     laboa help                           Laguntza mezu hau erakutsi
 

@@ -18,4 +18,4 @@ laboa> ageri(x + y)
 laboa> irten
 ```
 
-`exit` erabili REPL-etik irteteko.
+`exit` erabili REPLetik irteteko.

@@ -1,7 +1,7 @@
 # Begiztak eta baldintzak Laboan (Loops and conditionals in Laboa)
 
 # 'For' begizta barruti batekin (For loop with a range)
-ageri('Zenbakiak 1-etik 10-era:')
+ageri('Zenbakiak 1etik 10era:')
 errepikatu i bitartea(1, 11):
     ageri(i)
 

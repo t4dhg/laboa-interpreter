@@ -68,7 +68,7 @@ aldagarri emaitza = batu(10, 5)
 ageri('Emaitza: ' + emaitza)  # Irteera: Emaitza: 15
 ```
 
-### Python-en antzeko sintaxia funtzioetan
+### Pythonen antzeko sintaxia funtzioetan
 
 ```laboa
 funtzio biderkatu(x, y):
@@ -136,7 +136,7 @@ errepikatu i bitartea(1, 6):
 ```laboa
 aldagarri koloreak = ['gorria', 'urdina', 'horia', 'berdea']
 
-errepikatu kolorea koloreak-en:
+errepikatu kolorea koloreaken:
     ageri('Kolorea: ' + kolorea)
 ```
 
@@ -378,7 +378,7 @@ kalkulagailua()
 # Fitxategi bat exekutatu
 node laboa.js exekutatu nire_fitxategia.laboa
 
-# JavaScript-era transpilatu
+# JavaScriptera transpilatu
 node laboa.js transpilatu sarrera.laboa irteera.js
 
 # REPL interaktiboa
